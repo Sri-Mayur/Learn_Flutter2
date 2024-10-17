@@ -12,6 +12,7 @@ class Container_Sized extends StatelessWidget {
       ),
       body: Center(
         child: Container(
+            padding: EdgeInsets.all(10),
             height: 100,
             width: 100,
             decoration: BoxDecoration(
@@ -28,8 +29,12 @@ class Container_Sized extends StatelessWidget {
                     color: const Color.fromARGB(255, 27, 9, 39),
                   )
                 ]),
-            child:
-                Center(child: Text("Hello", style: TextStyle(fontSize: 20)))),
+            child: Center(
+              child: Container(
+                color: Colors.red,
+              ),
+              //child: Text("Hello", style: TextStyle(fontSize: 20))
+            )),
 
         // child: SizedBox(
         //   height: 50,
