@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:learning/widgets/button.dart';
 import 'package:learning/widgets/container_sized.dart';
 import 'package:learning/widgets/dismissible.dart';
+import 'package:learning/widgets/drawer.dart';
 import 'package:learning/widgets/list_grid.dart';
 import 'package:learning/widgets/rowscols.dart';
 import 'package:learning/widgets/snackbar.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           brightness: Brightness.dark,
           primaryColor: const Color.fromARGB(255, 68, 36, 122)),
-      home: DismissibleWidget(),
+      home: DrawerWidget(),
     );
   }
 }
