@@ -44,16 +44,11 @@ class AnimatedTextWidget extends StatelessWidget {
                     fontSize: 30,
                     color: Colors.deepPurple,
                   )),
-              WavyAnimatedText("How are you",
+              WavyAnimatedText("How are you doing?",
                   textStyle: TextStyle(
                     fontSize: 30,
                     color: Colors.deepPurple,
                   )),
-              WavyAnimatedText("doing?",
-                  textStyle: TextStyle(
-                    fontSize: 30,
-                    color: Colors.deepPurple,
-                  ))
             ]),
           ],
         ),
